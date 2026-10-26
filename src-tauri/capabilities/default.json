@@ -1,0 +1,14 @@
+{
+  "$schema": "../gen/schemas/desktop-schema.json",
+  "identifier": "default",
+  "description": "Default permissions for DKN Nexus",
+  "windows": ["main", "radial", "agent", "agent-tools", "music"],
+  "permissions": [
+    "core:default",
+    "core:window:allow-set-size",
+    "opener:default",
+    "process:default",
+    "shell:allow-open",
+    "global-shortcut:default"
+  ]
+}
